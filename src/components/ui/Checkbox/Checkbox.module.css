@@ -1,0 +1,15 @@
+.labelWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  user-select: none;
+}
+
+.checkbox {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: #4a90e2;
+}

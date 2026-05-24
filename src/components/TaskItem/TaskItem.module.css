@@ -1,0 +1,92 @@
+.item {
+  display: flex;
+  align-items: stretch;
+  padding: 14px 16px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.completedItem {
+  background-color: #f9fafb;
+}
+.dragHandle {
+  cursor: grab;
+  color: #a1a1aa;
+  padding-right: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 12px;
+}
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleArea {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.taskText {
+  font-size: 18px;
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.completedText {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.metaArea {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  color: #4b5563;
+}
+
+.priorityBox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.priorityIndicator {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.high { background-color: #fca5a5; border: 2px solid #ef4444; }
+.medium { background-color: #fcd34d; border: 2px solid #f59e0b; }
+.low { background-color: #6ee7b7; border: 2px solid #10b981; }
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.categoryBadge {
+  padding: 4px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #4b5563;
+  background-color: #fff;
+}
+.actionsBox {
+  display: flex;
+  gap: 8px;
+}
